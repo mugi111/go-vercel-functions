@@ -6,6 +6,6 @@
     { "src": "/health/*.go", "use": "@now/go" }
   ],
   "routes": [
-    { "src": "/health", "dest": "/health/index.go" }
+    { "src": "/health", "dest": "/health" }
   ]
 }
