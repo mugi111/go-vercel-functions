@@ -3,9 +3,11 @@
   "name": "go",
   "builds": [
     { "src": "*.go", "use": "@now/go" },
-    { "src": "/health/*.go", "use": "@now/go" }
+    { "src": "/health/*.go", "use": "@now/go" },
+    { "src": "/date/*.go", "use": "@now/go" }
   ],
   "routes": [
-    { "src": "/health", "dest": "/health" }
+    { "src": "/health", "dest": "/health" },
+    { "src": "/date", "dest": "/date" }
   ]
 }
